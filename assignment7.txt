@@ -3,144 +3,116 @@
 <head> 
 <title>ACID PROPERTY</title> 
 <style> 
-body{
-background:grey;
-}
-
-#div-one { 
-  background-color: #0000CC; 
-  height: 25px; 
-  width: 30%; 
-   
-} 
-#div-two { 
-  background-color: #3300FF; 
-  height: 25px; 
-  width: 30%; 
-   
-} 
-#div-three { 
-  background-color: #0066FF;
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#div-four{ 
-  background-color: #3366FF;
-  height: 25px; 
-  width: 30%; 
-   
-} 
-#div-five { 
-  background-color:#0099FF ; 
-  height: 25px; 
-  width: 30%; 
-   
-} 
-#div-six { 
-  background-color:#3399FF; 
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#div-seven{ 
-  background-color: #33CCFF; 
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#div-eight{ 
-  background-color: #009900; 
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#div-nine{ 
-  background-color: #FF00FF; 
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#div-ten{ 
-  background-color: #FF66FF; 
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#div-eleven{ 
-  background-color: #FF99FF; 
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#div-twelve{ 
-  background-color: #FFCCFF; 
-  height: 25px; 
-  width: 30%; 
-  
-} 
-#container{
- margin: auto;
- width: 40%;
- padding: 150px 0;
-position:absolute;
-left: 550px;
-}
-
-</style> 
- 
-</head> 
-<body> 
-<div id="container"> 
- 
-<div id="div-one"> 
-14.0 very alkaline 
-</div> 
- 
-<div id="div-two"> 
-13.0 
-</div> 
- 
-<div id="div-three"> 
-12.0 
-</div> 
- 
-<div id="div-four"> 
-11.0 
-</div> 
- 
-<div id="div-five"> 
-10.0 
-</div> 
- 
-<div id="div-six"> 
-9.0 
-</div> 
- 
-<div id="div-seven"> 
-8.0 
-</div> 
- 
-<div id="div-eight"> 
-7.0 NEUTRAL 
-</div> 
- 
-<div id="div-nine"> 
-6.0 
-</div> 
- 
-<div id="div-ten"> 
-5.0 
-</div> 
- 
-<div id="div-eleven"> 
-4.0 
-</div> 
- 
-<div id="div-twelve"> 
-3.0 NEUTRAL 
-</div> 
- 
-</div> 
-</body> 
-</html> 
+       body{
+              background:grey;
+           }
+       #div-one{
+              background-color: #0000CC; 
+              height: 25px; 
+              width: 30%; 
+              } 
+       #div-two { 
+              background-color: #3300FF; 
+              height: 25px; 
+              width: 30%; 
+              } 
+       #div-three { 
+              background-color: #0066FF;
+              height: 25px; 
+              width: 30%;
+              } 
+       #div-four{ 
+              background-color: #3366FF;
+              height: 25px; 
+              width: 30%; 
+              } 
+       #div-five { 
+             background-color:#0099FF ; 
+             height: 25px; 
+             width: 30%;  
+             } 
+       #div-six { 
+             background-color:#3399FF; 
+             height: 25px; 
+             width: 30%; 
+             } 
+      #div-seven{ 
+             background-color: #33CCFF; 
+             height: 25px; 
+             width: 30%; 
+             } 
+     #div-eight{ 
+            background-color: #009900; 
+            height: 25px; 
+            width: 30%; 
+            } 
+    #div-nine{ 
+            background-color: #FF00FF; 
+            height: 25px; 
+            width: 30%;   
+            } 
+    #div-ten{ 
+           background-color: #FF66FF; 
+           height: 25px; 
+           width: 30%;
+           } 
+    #div-eleven{ 
+           background-color: #FF99FF; 
+           height: 25px; 
+           width: 30%; 
+           } 
+    #div-twelve{ 
+           background-color: #FFCCFF; 
+           height: 25px; 
+           width: 30%; 
+           } 
+   #container{
+           margin: auto;
+           width: 40%;
+           padding: 150px 0;
+           position:absolute;
+           left: 550px;
+           }
+    </style> 
+         </head> 
+               <body> 
+                    <div id="container"> 
+                         <div id="div-one"> 
+                          14.0 very alkaline 
+                          </div> 
+                          <div id="div-two"> 
+                           13.0 
+                           </div> 
+                          <div id="div-three"> 
+                           12.0 
+                          </div> 
+                          <div id="div-four"> 
+                          11.0 
+                          </div> 
+                          <div id="div-five"> 
+                          10.0 
+                          </div> 
+                          <div id="div-six"> 
+                          9.0 
+                          </div> 
+                          <div id="div-seven"> 
+                          8.0 
+                          </div> 
+                          <div id="div-eight"> 
+                          7.0 NEUTRAL
+                          </div> 
+                          <div id="div-nine"> 
+                          6.0 
+                          </div> 
+                          <div id="div-ten"> 
+                          5.0 
+                          </div> 
+                          <div id="div-eleven"> 
+                          4.0 
+                          </div> 
+                          <div id="div-twelve"> 
+                          3.0 NEUTRAL 
+                          </div> 
+                          </div> 
+                    </body> 
+                         </html> 
